@@ -12,22 +12,34 @@
     <title></title>
   </head>
   <body>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
       <header>
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="sass.html">Home</a></li>
-              <li><a href="badges.html">Booking</a></li>
-              <li><a href="collapsible.html">About</a></li>
+        <<nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
             </ul>
-            <form action="includes/login.inc.php" method="post">
-              <input type="text" name="email" placeholder="Username/E-mail...">
-              <input type="password" name="pwd" placeholder="Username/E-mail...">
-              <button type="sumbit" name="login-submit">Login</button>
-            </form>
-            <a href="signup.php">Signup</a>
           </div>
         </nav>
       </header>
