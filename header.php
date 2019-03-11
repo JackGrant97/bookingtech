@@ -34,11 +34,11 @@
               <form action="includes/login.inc.php" method="post">
                 <input type="text" name="email" placeholder="Username/E-mail...">
                 <input type="password" name="pwd" placeholder="Password...">
-                <button type="submit" name="login-submit">Login</button>
+                <button type="submit" class="btn btn-light" name="login-submit">Login</button>
               </form>
-              <a href="signup.php">Register</a>
+              <a class="btn btn-primary" href="signup.php"></a>
               <form action="includes/logout.inc.php" method="post">
-                <button type="submit" name="logout-submit">Logout</button>
+                <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
               </form>
             </ul>
           </div>
