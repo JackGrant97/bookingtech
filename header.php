@@ -31,11 +31,13 @@
               </li>
             </ul>
             <ul class="navbar-nav">
-              <form action="includes/login.inc.php" method="post">
-                <input type="text" name="email" placeholder="Username/E-mail...">
-                <input type="password" name="pwd" placeholder="Password...">
-                <button type="submit" class="btn btn-light" name="login-submit">Login</button>
-              </form>
+              <div class="header-login">
+                <form action="includes/login.inc.php" method="post">
+                  <input type="text" name="email" placeholder="Username/E-mail...">
+                  <input type="password" name="pwd" placeholder="Password...">
+                  <button type="submit" class="btn btn-light" name="login-submit">Login</button>
+                </form>
+              </div>
               <div class="register">
                 <a class="btn btn-light" href="signup.php">Register</a>
               </div>
