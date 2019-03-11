@@ -1,7 +1,7 @@
 <html>
   <footer>
-    <div class="container-fluid bg-dark">
-      <div class="foot-content">
+    <div class="container-fluid">
+      <div class="foot-content bg-dark">
       </div>
     </div>
   </footer>
