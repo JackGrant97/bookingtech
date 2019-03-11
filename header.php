@@ -31,7 +31,7 @@
               </li>
             </ul>
             <ul class="navbar-nav">
-              <form class="login" action="includes/login.inc.php" method="post">
+              <form action="includes/login.inc.php" method="post">
                 <input type="text" name="email" placeholder="Username/E-mail...">
                 <input type="password" name="pwd" placeholder="Password...">
                 <button type="submit" class="btn btn-light" name="login-submit">Login</button>
@@ -39,7 +39,7 @@
               <div class="register">
                 <a class="btn btn-light" href="signup.php">Register</a>
               </div>
-              <form class="logout" action="includes/logout.inc.php" method="post">
+              <form action="includes/logout.inc.php" method="post">
                 <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
               </form>
             </ul>
