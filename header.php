@@ -30,10 +30,14 @@
                 <a class="nav-link" href="#">About</a>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-               <li><a href="#"><span class="glyphicon-glyphicon-user"></span>Register</a></li>
-               <li><a href="#"><span class="glyphicon-glyphicon-log-in"></span>Login</a></li>
-           </ul>
+            <ul class="navbar-nav">      
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>
