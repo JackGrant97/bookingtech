@@ -5,3 +5,7 @@
  .register{
    padding-right: 5px;
  }
+
+.footer{
+  position: fixed;
+}
