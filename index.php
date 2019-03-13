@@ -8,7 +8,7 @@
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="my-4">
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-outline-dark" href="#" role="button">Learn more</a>
+      <a class="btn btn-outline-light" href="#" role="button">Learn more</a>
     </div>
     <div class="videobg">
       <video autoplay muted loop id="myVideo">
