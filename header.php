@@ -18,51 +18,53 @@
   </head>
   <body>
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">BookingTech</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Booking</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav">
-              <div class="header-login">
-                <form action="includes/login.inc.php" method="post">
-                  <input type="text" name="email" placeholder="Username/E-mail...">
-                  <input type="password" name="pwd" placeholder="Password...">
-                  <button type="submit" class="btn btn-light" name="login-submit">Login</button>
-                </form>
-              </div>
-                <?php
-                  if (isset($_SESSION['userid'])) {
-                    echo
-                    '
-                    <form action="includes/logout.inc.php" method="post">
-                      <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
-                    </form>
-                    ';
-                  }
-                  else {
-                    echo
-                    '
-                    <div class="register">
-                      <a class="btn btn-light" href="signup.php">Register</a>
-                    </div>
-                    ';
-                  }
-                 ?>
-            </ul>
-          </div>
-        </nav>
+        <div class="nav">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">BookingTech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Booking</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <div class="header-login">
+                  <form action="includes/login.inc.php" method="post">
+                    <input type="text" name="email" placeholder="Username/E-mail...">
+                    <input type="password" name="pwd" placeholder="Password...">
+                    <button type="submit" class="btn btn-light" name="login-submit">Login</button>
+                  </form>
+                </div>
+                  <?php
+                    if (isset($_SESSION['userid'])) {
+                      echo
+                      '
+                      <form action="includes/logout.inc.php" method="post">
+                        <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
+                      </form>
+                      ';
+                    }
+                    else {
+                      echo
+                      '
+                      <div class="register">
+                        <a class="btn btn-light" href="signup.php">Register</a>
+                      </div>
+                      ';
+                    }
+                   ?>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </header>
 </html>
