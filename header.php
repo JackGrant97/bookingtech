@@ -57,7 +57,7 @@
                     '
                     <div class="register">
                       <a class="btn btn-light" href="signup.php">Register</a>
-                    </div>                    
+                    </div>
                     ';
                   }
                  ?>
@@ -65,4 +65,3 @@
           </div>
         </nav>
       </header>
-</html>
