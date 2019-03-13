@@ -29,3 +29,7 @@
   min-height: 100%;
   z-index: -1;
 }
+
+.jumbotron{
+  background-color:rgba(0, 0, 0, 0.5);
+}
