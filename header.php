@@ -42,6 +42,7 @@
                   <input type="password" name="pwd" placeholder="Password...">
                   <button type="submit" class="btn btn-light" name="login-submit">Login</button>
                 </form>
+              </div>
                 <?php
                   if (isset($_SESSION['userid'])) {
                     echo
@@ -60,7 +61,7 @@
                     ';
                   }
                  ?>
-              </div>
+
             </ul>
           </div>
         </nav>
