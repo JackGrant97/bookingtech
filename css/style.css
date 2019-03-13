@@ -28,6 +28,7 @@
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+  background-color:rgba(192,192,192,0.4);
 }
 
 .jumbotron{
