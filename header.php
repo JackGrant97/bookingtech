@@ -37,18 +37,26 @@
             </ul>
             <ul class="navbar-nav">
               <div class="header-login">
-                <form action="includes/login.inc.php" method="post">
-                  <input type="text" name="email" placeholder="Username/E-mail...">
-                  <input type="password" name="pwd" placeholder="Password...">
-                  <button type="submit" class="btn btn-light" name="login-submit">Login</button>
-                </form>
-              </div>
-              <div class="register">
-                <a class="btn btn-light" href="signup.php">Register</a>
-              </div>
-              <form action="includes/logout.inc.php" method="post">
-                <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
-              </form>
+                <?php
+                  if (isset($_SESSION['userid'])) {
+                    echo
+                    '<form action="includes/login.inc.php" method="post">
+                        <input type="text" name="email" placeholder="Username/E-mail...">
+                        <input type="password" name="pwd" placeholder="Password...">
+                        <button type="submit" class="btn btn-light" name="login-submit">Login</button>
+                      </form>
+                    </div>';
+                  }
+                  else {
+                    echo
+                     '<div class="register">
+                        <a class="btn btn-light" href="signup.php">Register</a>
+                      </div>
+                      <form action="includes/logout.inc.php" method="post">
+                        <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
+                      </form>';
+                  }
+                 ?>
             </ul>
           </div>
         </nav>
