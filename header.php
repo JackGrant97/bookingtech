@@ -47,6 +47,9 @@
                   if (isset($_SESSION['userid'])) {
                     echo
                     '
+                    <form action="includes/logout.inc.php" method="post">
+                      <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
+                    </form>
                     ';
                   }
                   else {
@@ -54,14 +57,10 @@
                     '
                     <div class="register">
                       <a class="btn btn-light" href="signup.php">Register</a>
-                    </div>
-                    <form action="includes/logout.inc.php" method="post">
-                      <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
-                    </form>
+                    </div>                    
                     ';
                   }
                  ?>
-
             </ul>
           </div>
         </nav>
