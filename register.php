@@ -26,10 +26,10 @@
           <div class="form-group col-md-6">
             <label for="formGroupExampleInput2">Confirm Password</label>
             <input type="text" class="form-control" id="formGroupExampleInput2" pattern="[A-Za-z0-9 ]+" placeholder="Confirm Password..." class="validate">
-          </div>
-          <small id="passwordHelpBlock" class="form-text text-muted">
-            Ensure password matchs.
-          </small>
+            <small id="passwordHelpBlock" class="form-text text-muted">
+              Ensure password matchs.
+            </small>
+          </div>      
         </div>
         <div class="row">
           <div class="form-group col-md-12">
