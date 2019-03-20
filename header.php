@@ -42,26 +42,27 @@
                   <input class="input" type="text" name="email" placeholder="Username/E-mail...">
                   <input class="input" type="password" name="pwd" placeholder="Password...">
                   <button type="submit" class="btn btn-light" name="login-submit">Login</button>
+                  <?php
+                    if (isset($_SESSION['userid'])) {
+                      echo
+                      '
+                      <form action="includes/logout.inc.php" method="post">
+                        <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
+                      </form>
+                      ';
+                    }
+                    else {
+                      echo
+                      '
+                      <div class="register">
+                        <a class="btn btn-light" href="register.php">Register</a>
+                      </div>
+                      ';
+                    }
+                   ?>
                 </form>
               </div>
-                <?php
-                  if (isset($_SESSION['userid'])) {
-                    echo
-                    '
-                    <form action="includes/logout.inc.php" method="post">
-                      <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
-                    </form>
-                    ';
-                  }
-                  else {
-                    echo
-                    '
-                    <div class="register">
-                      <a class="btn btn-light" href="register.php">Register</a>
-                    </div>
-                    ';
-                  }
-                 ?>
+
             </ul>
           </div>
         </nav>
