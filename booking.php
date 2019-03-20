@@ -7,6 +7,17 @@
       <form class="booking" method="post">
         <div class="row">
           <div class="form-group col-md-12">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Days</label>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+              <option selected>Choose...</option>
+              <option value="27th">27th</option>
+              <option value="28th">28th</option>
+              <option value="both">both</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-md-12">
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Table Size</label>
             <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
               <option selected>Choose...</option>
