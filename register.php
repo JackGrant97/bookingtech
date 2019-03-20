@@ -20,7 +20,7 @@
             <label for="formGroupExampleInput2">Password</label>
             <input type="text" class="form-control" id="formGroupExampleInput2" pattern="[A-Za-z0-9 ]+" placeholder="Password..." class="validate">
             <small id="passwordHelpBlock" class="form-text text-muted">
-              Your password must only use upper/lowercase letters and/or numers
+              Your password must only use upper/lowercase letters and/or numbers.
             </small>
           </div>
           <div class="form-group col-md-6">
