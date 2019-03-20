@@ -41,6 +41,7 @@
             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
           </div>
         </div>
+        <button type="submit" class="btn btn-light" name="login-submit">Login</button>
       </form>
     </div>
   </main>
