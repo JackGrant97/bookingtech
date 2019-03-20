@@ -26,6 +26,9 @@
             </select>
           </div>
         </div>
+        <small class="disclaimer">
+          If you are not booking on behalf of a business please do not book here! tickets will be available at the gates starting 9AM on the day of the event.
+        </small>
         <button type="submit" class="btn btn-light" name="book-submit">Book Ticket!</button>
       </form>
     </div>
