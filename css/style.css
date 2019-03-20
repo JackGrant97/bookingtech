@@ -21,15 +21,7 @@
 }
 
 /* Style the video: 100% width and height to cover the entire window */
-.videobg {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  background-color:rgba(192,192,192,0.9);
-}
+
 
 .jumbotron{
   background-color:rgba(0, 0, 0, 0);
@@ -38,4 +30,13 @@
   margin: auto;
   vertical-align: middle;
   padding-top: 10%;
+}
+
+#MyVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
