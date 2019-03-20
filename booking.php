@@ -14,6 +14,7 @@
             <option value="3">Three</option>
           </select>
         </div>
+        <button type="submit" class="btn btn-light" name="signup-submit">Submit</button>
       </form>
     </div>
   </main>
