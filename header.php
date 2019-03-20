@@ -38,8 +38,8 @@
             <ul class="navbar-nav">
               <div class="header-login">
                 <form action="includes/login.inc.php" method="post">
-                  <input type="text" name="email" placeholder="Username/E-mail...">
-                  <input type="password" name="pwd" placeholder="Password...">
+                  <input class="input" type="text" name="email" placeholder="Username/E-mail...">
+                  <input class="input" type="password" name="pwd" placeholder="Password...">
                   <button type="submit" class="btn btn-light" name="login-submit">Login</button>
                 </form>
               </div>
