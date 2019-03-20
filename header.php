@@ -57,7 +57,7 @@
                     echo
                     '
                     <div class="register">
-                      <a class="btn btn-light" href="signup.php">Register</a>
+                      <a class="btn btn-light" href="register.php">Register</a>
                     </div>
                     ';
                   }
