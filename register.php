@@ -4,7 +4,7 @@
 
   <main>
     <div class="container">
-      <form>
+      <form class="register">
         <div class="row">
           <div class="form-group">
             <label for="formGroupExampleInput">Username</label>
