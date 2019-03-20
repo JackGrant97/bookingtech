@@ -6,7 +6,7 @@
     <div class="container">
       <form class="booking" method="post">
         <div class="form-group col-md-12">
-          <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Table Size</label>
+          <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Table Size</label>
           <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
             <option selected>Choose...</option>
             <option value="6ft">6Ft</option>
