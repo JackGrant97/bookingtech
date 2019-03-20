@@ -3,44 +3,46 @@
 ?>
 
   <main>
-    <form>
-      <div class="row">
-        <div class="form-group">
-          <label for="formGroupExampleInput">Username</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="form-group">
+            <label for="formGroupExampleInput">Username</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="form-group">
-          <label for="formGroupExampleInput2">Email</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="row">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="form-group">
-          <label for="formGroupExampleInput2">Password</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="row">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Password</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="form-group">
-          <label for="formGroupExampleInput2">Mobile</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="row">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Mobile</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="form-group">
-          <label for="formGroupExampleInput2">Confirm Password</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="row">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Confirm Password</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="form-group">
-          <label for="formGroupExampleInput2">Email</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+        <div class="row">
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </main>
 
 <?php
