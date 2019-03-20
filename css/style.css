@@ -41,3 +41,7 @@
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
 }
+
+.register {
+  padding-top: 3%;
+}
