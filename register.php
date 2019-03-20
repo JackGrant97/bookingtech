@@ -7,8 +7,8 @@
       <form class="register" method="post">
         <div class="row">
           <div class="form-group col-md-6">
-            <label for="formGroupExampleInput">Username</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" pattern="[A-Za-z0-9 ]+" placeholder="Username..." class="validate">
+            <label for="formGroupExampleInput">Username/Business name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" pattern="[A-Za-z0-9 ]+" placeholder="Username/Business name..." class="validate">
           </div>
           <div class="form-group col-md-6">
             <label for="formGroupExampleInput2">Email</label>
