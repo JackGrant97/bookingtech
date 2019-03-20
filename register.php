@@ -37,7 +37,7 @@
             <input type="text" class="form-control" id="formGroupExampleInput2" pattern="[0-9]+" placeholder="Mobile/Telephone..." maxlength="11" class="validate">
           </div>
         </div>
-        <button type="submit" class="btn btn-light" name="login-submit">Submit</button>
+        <button type="submit" class="btn btn-light" name="signup-submit">Submit</button>
       </form>
     </div>
   </main>
