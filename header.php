@@ -54,9 +54,7 @@
                     else {
                       echo
                       '
-                      <div class="register">
                         <a class="btn btn-light" href="register.php">Register</a>
-                      </div>
                       ';
                     }
                    ?>
