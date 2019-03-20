@@ -15,7 +15,7 @@
             </select>
           </div>
         </div>
-        <button type="submit" class="btn btn-light" name="signup-submit">Submit</button>
+        <button type="submit" class="btn btn-light" name="book-submit">Book Ticket!</button>
       </form>
     </div>
   </main>
