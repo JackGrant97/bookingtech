@@ -18,14 +18,14 @@
         <div class="row">
           <div class="form-group col-md-6">
             <label for="formGroupExampleInput2">Password</label>
-            <input type="text" class="form-control" name="pwd" id="pwd" pattern="[A-Za-z0-9 ]+" placeholder="Password..." class="validate">
+            <input type="text" class="form-control" name="password" id="password" pattern="[A-Za-z0-9 ]+" placeholder="Password..." class="validate">
             <small id="passwordHelpBlock" class="form-text text-muted">
               Your password must only use upper/lowercase letters and/or numbers.
             </small>
           </div>
           <div class="form-group col-md-6">
             <label for="formGroupExampleInput2">Confirm Password</label>
-            <input type="text" class="form-control" name="cpwd" id="cpwd" pattern="[A-Za-z0-9 ]+" placeholder="Confirm Password..." class="validate">
+            <input type="text" class="form-control" name="password-repeat" id="password-repeat" pattern="[A-Za-z0-9 ]+" placeholder="Confirm Password..." class="validate">
             <small id="passwordHelpBlock" class="form-text text-muted">
               Ensure password matches.
             </small>
