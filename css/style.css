@@ -1,5 +1,9 @@
 .fixed-bottom{
-  position: static;
+  margin-top: auto;
+  object-position: bottom;
+  width:100%;
+  height: 23px;
+  padding-bottom: 0;
 }
 
 .foot-content{
