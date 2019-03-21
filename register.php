@@ -4,7 +4,7 @@
 
   <main>
     <div class="container">
-      <form class="register" method="post">
+      <form class="register" action="includes/signup.inc.php" method="post">
         <div class="row">
           <div class="form-group col-md-6">
             <label for="formGroupExampleInput">Username/Business name</label>
@@ -34,7 +34,7 @@
         <div class="row">
           <div class="form-group col-md-12">
             <label for="formGroupExampleInput2">Mobile</label>
-            <input type="text" class="form-control" name="mobile" id="mobile" pattern="[0-9]+" placeholder="Mobile/Telephone..." maxlength="11" class="validate">
+            <input type="text" class="form-control" name="telephone" id="telephone" pattern="[0-9]+" placeholder="Mobile/Telephone..." maxlength="11" class="validate">
           </div>
         </div>
         <button type="submit" class="btn btn-light" name="signup-submit">Submit</button>
