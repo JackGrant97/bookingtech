@@ -39,6 +39,8 @@
       $tables = $_POST['table'];
       $id = $_SESSION['userid'];
 
+    if (isset($_POST['book-submit']))
+    {
       $sql = "INSERT INTO booking (bookingdate, tablesize, UserID) VALUES (?, ?, ?)";
       $stmt = mysqli_stmt_init($con);
       if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -49,7 +51,8 @@
         mysqli_stmt_bind_param($stmt, "sss", $date, $tables, $id);
         mysqli_stmt_execute($stmt);
         header("Location: ../booking.php?booking=success");
-      }      
+      }
+    } 
     ?>
   </main>
 
