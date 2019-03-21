@@ -11,7 +11,6 @@ if (isset($_POST['book-submit'])) {
     header("Location: ../booking.php?error=emptyfields&date=".$date."&table=".$tables);
     exit();
   }
-    else {  
       else {
         //inputs data entered from the register page into the database
         $sql = "INSERT INTO booking (bookingdate, tablesize, UserID) VALUES (?, ?, ?)";
@@ -27,7 +26,6 @@ if (isset($_POST['book-submit'])) {
           exit();
         }
       }
-    }
   }
   mysqli_stmt_close($stmt);
   mysqli_close($con);
