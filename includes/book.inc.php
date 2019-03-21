@@ -7,7 +7,7 @@ if (isset($_POST['book-submit'])) {
   $tables = $_POST['table'];
   $id = $_SESSION['userid'];
 
-  if (empty($date) || empty($tables) || empty($id)) {
+  if (empty($date) || empty($tables)) {
     header("Location: ../booking.php?error=emptyfields&date=".$date."&table=".$tables);
     exit();
   }
