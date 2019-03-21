@@ -21,7 +21,7 @@
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Table Size</label>
             <select class="custom-select my-1 mr-sm-2" id="table" name="table">
               <option selected>Choose...</option>
-              <option idvalue="6ft">6Ft (£175 Per Day)</option>
+              <option value="6ft">6Ft (£175 Per Day)</option>
               <option value="12ft">12ft (£250 Per Day)</option>
             </select>
           </div>
