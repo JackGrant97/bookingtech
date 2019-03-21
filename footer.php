@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <footer class="fixed">
+  <footer class="footer">
     <div class="container-fluid bg-dark">
       <div class="foot-content">
         <p class="copyright">
