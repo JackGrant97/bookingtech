@@ -21,15 +21,6 @@ if (isset($_POST['signup-submit'])) {
     header("Location: ../register.php?error=invalidmail&uname=".$username);
     exit();
   }
-  else if (!preg_match("/^[a-zA-Z]*$/",$lastname)) {
-    header("Location: ../register.php?error=invalidlastName&FirstName=".$firstname."&postcode=".$postcode.
-    "&City=".$city."&address=".$address);
-    exit();
-  }
-  else if (!preg_match("/^[a-zA-Z]*$/",$city)) {
-    header("Location: ../register.php?error=invalidCity&FirstName=".$firstname."&LastName=".$lastname."&postcode=".$postcode."&address=".$address);
-    exit();
-  }
   else if ($password !== $passwordRepeat) {
     header("Location: ../register.php?error=passwordcheck&uname=".$username);
     exit();
