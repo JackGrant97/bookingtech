@@ -3,8 +3,16 @@
 ?>
 
   <main>
-    <p>You Are logged out!</p>
-    <p>You are logged in!</p>
+    <div class="status">
+      <?php
+        if (isset($_SESSION['userid'])) {
+          echo '<p><b>Welcome Back</b></p>'. $_SESSION['FirstName'];
+        }
+        else {
+          echo '<p><b>You are Logged out!</b></p>';
+        }
+       ?>
+    </div>
   </main>
 
 <?php
