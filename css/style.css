@@ -1,10 +1,9 @@
 .fixed-bottom{
-  margin-top: auto;
+  margin-top: -40px;
   object-position: bottom;
   width:100%;
   height: 23px;
   padding-bottom: 0;
-  position: relative;
 }
 
 .foot-content{
@@ -67,4 +66,8 @@
 
 .slide {
   padding-top: 2%;
+}
+
+body{
+  min-height: 100%;
 }
