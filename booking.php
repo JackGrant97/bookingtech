@@ -4,7 +4,7 @@
 
   <main>
     <div class="container">
-      <form class="booking" method="post">
+      <form class="booking" method="post" action="includes/book.inc.php">
         <div class="row">
           <div class="form-group col-md-12">
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Days</label>
