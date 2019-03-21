@@ -45,9 +45,11 @@
         header("Location: ../booking.php?error=sqlerror01");
         exit();
       }
-      mysqli_stmt_bind_param($stmt, "sss", $date, $tables, $id);
-      mysqli_stmt_execute($stmt);
-      header("Location: ../booking.php?booking=success");
+      else {
+        mysqli_stmt_bind_param($stmt, "sss", $date, $tables, $id);
+        mysqli_stmt_execute($stmt);
+        header("Location: ../booking.php?booking=success");
+      }      
     ?>
   </main>
 
