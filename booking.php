@@ -4,7 +4,7 @@
 
   <main>
     <div class="container">
-      <form class="booking" method="post" action="includes/book.inc.php">
+      <form class="booking" method="post">
         <div class="row">
           <div class="form-group col-md-12">
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Days</label>
@@ -34,6 +34,20 @@
         <button type="submit" class="btn btn-light" name="book-submit">Book Ticket!</button>
       </form>
     </div>
+    <?php
+      $date = $_POST['date'];
+      $tables = $_POST['table'];
+      $id = $_SESSION['userid'];
+
+      $sql = "INSERT INTO booking (bookingdate, tablesize, UserID) VALUES (?, ?, ?)";
+      $stmt = mysqli_stmt_init($con);
+      if (!mysqli_stmt_prepare($stmt, $sql)) {
+        header("Location: ../booking.php?error=sqlerror01");
+        exit();
+      }
+      mysqli_stmt_bind_param($stmt, "sss", $date, $tables, $id);
+      mysqli_stmt_execute($stmt);
+    ?>
   </main>
 
 <?php
