@@ -54,7 +54,7 @@
                     else {
                       echo
                       '
-                        <a class="btn btn-light" href="register.php">Register</a>
+                        <a class="btn btn-light" href="includes/signup.inc.php">Register</a>
                       ';
                     }
                    ?>
