@@ -46,9 +46,7 @@
                     if (isset($_SESSION['userid'])) {
                       echo
                       '
-                      <form action="includes/logout.inc.php" method="post">
-                        <button type="submit" class="btn btn-light" name="logout-submit">Logout</button>
-                      </form>
+                      <a class="btn btn-light" href="includes/logout.inc.php">Logout</a>
                       ';
                     }
                     else {
