@@ -67,18 +67,10 @@
   padding-bottom: 23px;
 }
 
-.fixed{
+.footer{
   object-position: bottom;
   width:100%;
   height: 23px;
   padding-bottom: 0;
 
-}
-
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:23px;   /* Height of the footer */
-   background:#6cf;
 }
