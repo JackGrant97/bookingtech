@@ -72,3 +72,7 @@ body{
   height: 23px;
   padding-bottom: 0;
 }
+
+.main {
+  min-height: 100%;
+}
