@@ -55,7 +55,7 @@ if (isset($_POST['signup-submit'])) {
           //Uses BCrypt to hash users password
           $hashedpassword = password_hash($password, PASSWORD_DEFAULT);
 
-          mysqli_stmt_bind_param($stmt, "ssss", $username, $email, $email, $hashedpassword, $Telephone);
+          mysqli_stmt_bind_param($stmt, "ssss", $username, $email, $hashedpassword, $Telephone);
           mysqli_stmt_execute($stmt);
           header("Location: ../register.php?signup=success");
           exit();
