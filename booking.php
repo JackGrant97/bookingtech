@@ -10,9 +10,9 @@
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Days</label>
             <select class="custom-select my-1 mr-sm-2" id="date" name="date">
               <option selected>Choose...</option>
-              <option value="27th">27th July 2019</option>
-              <option value="28th">28th July 2019</option>
-              <option value="both">both</option>
+              <option id="date" name="date" value="27th">27th July 2019</option>
+              <option id="date" name="date" value="28th">28th July 2019</option>
+              <option id="date" name="date" value="both">both</option>
             </select>
           </div>
         </div>
@@ -21,8 +21,8 @@
             <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Select Table Size</label>
             <select class="custom-select my-1 mr-sm-2" id="table" name="table">
               <option selected>Choose...</option>
-              <option value="6ft">6Ft (£175 Per Day)</option>
-              <option value="12ft">12ft (£250 Per Day)</option>
+              <option id="table" name="table" value="6ft">6Ft (£175 Per Day)</option>
+              <option id="table" name="table" value="12ft">12ft (£250 Per Day)</option>
             </select>
           </div>
         </div>
