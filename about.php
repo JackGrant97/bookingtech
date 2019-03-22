@@ -129,6 +129,52 @@
                     </tr>
                   </tbody>
                 </table>
+                <br>
+                <br>Business Include:
+                <br>
+                <br>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Microsoft</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Valve Corporation</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Google</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Epic Games</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>AMD</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>IBM</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Nvidia</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Intel</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
