@@ -58,7 +58,7 @@ body{
 .footer{
    bottom: 0;
    width: 100%;
-   position: fixed;
+   position: relative;
    background-color: #333 !important;
    color: white;
 }
