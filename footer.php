@@ -10,7 +10,7 @@
     </div>
   </footer> -->
   <!-- Footer -->
-<footer class="footer bg-dark">
+<footer class="footer">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -127,7 +127,7 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <div class="footer-copyright text-center py-3 bg-dark">© 2018 Copyright:
       <a href="https://mdbootstrap.com/education/angular/"> MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
