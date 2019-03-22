@@ -33,6 +33,13 @@
                 <p>Test</p>
               </div>
             </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/images/tim.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Test</h5>
+                <p>Test</p>
+              </div>
+            </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
