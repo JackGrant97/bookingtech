@@ -78,7 +78,7 @@
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
               <div class="card-body">
-                A variety of high profile speakers from various sectors of the technology industry will attending and making publish speech’s
+                A variety of high profile speakers and businesses from various sectors of the technology industry will attending and making publish speech’s
                 <br>
                 <br>Speakers Include:
                 <br>
