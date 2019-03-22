@@ -59,6 +59,8 @@ body{
    bottom: 0;
    width: 100%;
    position: fixed;
+   background-color: #333 !important;
+   color: white;
 }
 
 
