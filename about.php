@@ -87,7 +87,7 @@
                 <br>•Sundar Pichai
                 <br>•Tim Sweeney
                 <br>
-                <br>The following poster will show all public events for both Days
+                <br>The following Table will display which public speakers will be attending
                 <br>
               <!--  <img class="speaker" src="assets/images/SpeakerPoster.jpg"> -->
 
@@ -98,6 +98,8 @@
                       <th scope="col">First</th>
                       <th scope="col">Last</th>
                       <th scope="col">Role</th>
+                      <th scope="col">Day</th>
+                      <th scope="col">Time</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -106,24 +108,32 @@
                       <td>Bill </td>
                       <td>Gates</td>
                       <td>Founder, technology advisor, and board memeber at Microsoft</td>
+                      <td>27th July 2019</td>
+                      <td>10:00AM</td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
                       <td>Gabe</td>
                       <td>Newell</td>
                       <td>President of Valve Corporation</td>
+                      <td>27th July 2019</td>
+                      <td>11:00AM</td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
                       <td>Sundar</td>
                       <td>Pichai</td>
                       <td>CEO of Google</td>
+                      <td>28th July 2019</td>
+                      <td>12:00AM</td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
                       <td>Tim</td>
                       <td>Sweeney</td>
                       <td>CEO of Epic Games</td>
+                      <td>28th July 2019</td>
+                      <td>11:00AM</td>
                     </tr>
                   </tbody>
                 </table>
