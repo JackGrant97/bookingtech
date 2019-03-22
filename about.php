@@ -64,7 +64,10 @@
             </div>
             <div id="collapseOne" class="collapse collapsed" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                BookingTech’s employment conference is a new event available to the public and is aimed at students hoping to get a job within the technology industry. <br>
+                The event will also allow business to teach students how to make themselves more desirable to businesses within the industry. <br>
+                Mock interviews will be carried out between businesses and students so that they can get feedback on how to improve and potentially even land a placement with them. <br>
+                Lastly business will be able to inform students of what they offer and how to get a job within their company.<br>
                 <br>
                 <br> A full floor plan is available down bellow
                 <br>
