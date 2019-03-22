@@ -85,11 +85,48 @@
                 <br>•Bill Gates
                 <br>•Gabe Newell
                 <br>•Sundar Pichai
-                <br>•Time Sweeney
+                <br>•Tim Sweeney
                 <br>
                 <br>The following poster will show all public events for both Days
                 <br>
-                <img class="speaker" src="assets/images/SpeakerPoster.jpg">
+              <!--  <img class="speaker" src="assets/images/SpeakerPoster.jpg"> -->
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Role</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Bill </td>
+                      <td>Gates</td>
+                      <td>Founder, technology advisor, and board memeber at Microsoft</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Gabe</td>
+                      <td>Newell</td>
+                      <td>President of Valve Corporation</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Sundar</td>
+                      <td>Pichai</td>
+                      <td>CEO of Google</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Tim</td>
+                      <td>Sweeney</td>
+                      <td>CEO of Epic Games</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
