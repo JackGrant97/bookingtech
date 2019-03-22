@@ -64,7 +64,7 @@
             </div>
             <div id="collapseOne" class="collapse collapsed" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
-                BookingTech’s employment conference is a new event available to the public and is aimed at students hoping to get a job within the technology industry. <br>
+                BookingTech’s employment conference is a new event available to the public and is aimed at students hoping to get a job within the technology industry. 
                 The event will also allow business to teach students how to make themselves more desirable to businesses within the industry.
                 Mock interviews will be carried out between businesses and students so that they can get feedback on how to improve and potentially even land a placement with them. <br>
                 Lastly business will be able to inform students of what they offer and how to get a job within their company.<br>
