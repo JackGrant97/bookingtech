@@ -37,8 +37,8 @@
             <div class="carousel-item">
               <img class="d-block w-100" src="assets/images/tim.jpg" alt="fourth slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test</h5>
-                <p>Test</p>
+                <h5>Time Sweeney</h5>
+                <p>CEO of Epic Games</p>
               </div>
             </div>
           </div>
