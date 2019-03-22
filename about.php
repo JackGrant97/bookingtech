@@ -13,7 +13,7 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="http://placehold.jp/900x500.png" alt="First slide">
+              <img class="d-block w-100" src="assets/images/billgates.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Test</h5>
                 <p>Test</p>
