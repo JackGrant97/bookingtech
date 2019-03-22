@@ -30,8 +30,8 @@
             <div class="carousel-item">
               <img class="d-block w-100" src="assets/images/sundar.jpg" alt="Third slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test</h5>
-                <p>Test</p>
+                <h5>Sundar Pichai</h5>
+                <p>CEO of Google</p>
               </div>
             </div>
             <div class="carousel-item">
