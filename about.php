@@ -88,6 +88,7 @@
                 <br>•Time Sweeney
                 <br>
                 <br>The following poster will show all public events for both Days
+                <br>
                 <img class="speaker" src="assets/images/SpeakerPoster.jpg">
               </div>
             </div>

@@ -81,3 +81,7 @@ main {
 .warning {
   padding-top: 2%;
 }
+
+.speaker {
+  width: 50%;
+}
