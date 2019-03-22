@@ -23,8 +23,8 @@
             <div class="carousel-item">
               <img class="d-block w-100" src="assets/images/gabe.jpg" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test</h5>
-                <p>Test</p>
+                <h5>Gabe Newell</h5>
+                <p>President of Valve Corporation</p>
               </div>
             </div>
             <div class="carousel-item">
