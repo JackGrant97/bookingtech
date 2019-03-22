@@ -176,8 +176,8 @@
                     </tr>
                   </tbody>
                 </table>
-                <br>
                 <br> A full time table is availble down bellow
+                <br>
                 <br>
                 <a href="assets/images/SpeakerPoster.jpg" class="btn btn-light" download="SpeakerPoster">TimeTable</a>
               </div>
