@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="http://placehold.jp/900x500.png" alt="Third slide">
+              <img class="d-block w-100" src="assets/images/sundar.jpg" alt="Third slide">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Test</h5>
                 <p>Test</p>
