@@ -10,7 +10,7 @@
     </div>
   </footer> -->
   <!-- Footer -->
-<footer class="page-footer font-small indigo">
+<footer class="footer bg-dark">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
