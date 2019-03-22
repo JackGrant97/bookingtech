@@ -42,10 +42,10 @@
         ?>
       <div class="warning">
         <div class="alert alert-danger" role="alert">
-          <h4 class="alert-heading">Well done!</h4>
-          <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+          <h4 class="alert-heading">Sorry for the inconvenience!</h4>
+          <p>This page is only for businesses who own accounts.</p>
           <hr>
-          <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+          <p class="mb-0">To use the booking page please register an account on behalf of your business.</p>
         </div>
       </div>
       <?php endif;?>
