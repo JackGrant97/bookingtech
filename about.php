@@ -80,7 +80,7 @@
               <div class="card-body">
                 A variety of high profile speakers from various sectors of the technology industry will attending and making publish speech’s
                 <br>
-                <br>Speakers Include
+                <br>Speakers Include:
                 <br>
                 <br>•Bill Gates
                 <br>•Gabe Newell
