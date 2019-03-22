@@ -55,10 +55,10 @@
         <!-- Grid column -->
         <div class="col-md-3 mx-auto">
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Created By</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+              <p> Jack Grant </p>
             </li>
           </ul>
         </div>
