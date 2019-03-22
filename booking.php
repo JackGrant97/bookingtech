@@ -49,7 +49,7 @@
         </div>
       </div>
       <?php endif;?>
-    </div>
+
     <?php
       $date = $_POST['date'];
       $tables = $_POST['table'];
@@ -77,6 +77,7 @@
       }
     }
     ?>
+   </div>
   </main>
 
 <?php
