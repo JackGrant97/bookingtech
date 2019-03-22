@@ -43,10 +43,10 @@
         <!-- Grid column -->
         <div class="col-md-3 mx-auto">
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Hosted</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+              <a href="https://dashboard.heroku.com/apps">Heroku</a>
             </li>
           </ul>
         </div>
