@@ -179,7 +179,7 @@
                 <br> A full time table is availble down bellow
                 <br>
                 <br>
-                <a href="assets/images/SpeakerPoster.jpg" class="btn btn-light" download="SpeakerPoster">TimeTable</a>
+                <a href="assets/images/SpeakerPoster.jpg" class="btn btn-light" download="SpeakerPoster.jpg">TimeTable</a>
               </div>
             </div>
           </div>
