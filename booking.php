@@ -67,6 +67,12 @@
         mysqli_stmt_bind_param($stmt, "sss", $date, $tables, $id);
         mysqli_stmt_execute($stmt);
         header("Location: ../booking.php?booking=success");
+        echo
+        "
+        <div class="alert alert-success" role="alert">
+          Congratulations! Your table has been booked!
+        </div>
+        ";
         exit();
       }
     }
