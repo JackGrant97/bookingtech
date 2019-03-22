@@ -31,10 +31,10 @@
         <!-- Grid column -->
         <div class="col-md-3 mx-auto">
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Developed</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!">Link 1</a>
+              <a href="https://getbootstrap.com/">Bootstrap</a>
             </li>
           </ul>
         </div>
