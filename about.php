@@ -82,15 +82,7 @@
                 <br>
                 <br>Speakers Include:
                 <br>
-                <br>•Bill Gates
-                <br>•Gabe Newell
-                <br>•Sundar Pichai
-                <br>•Tim Sweeney
-                <br>
-                <br>The following Table will display which public speakers will be attending
-                <br>
-              <!--  <img class="speaker" src="assets/images/SpeakerPoster.jpg"> -->
-
+                <br>      
                 <table class="table">
                   <thead>
                     <tr>
