@@ -58,7 +58,7 @@
           <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Created By</h5>
           <ul class="list-unstyled">
             <li>
-              <p> Jack Grant </p>
+              <a href="https://github.com/JackGrant97/bookingtech">Jack Grant</a>
             </li>
           </ul>
         </div>
