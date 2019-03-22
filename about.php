@@ -82,7 +82,7 @@
                 <br>
                 <br>Speakers Include:
                 <br>
-                <br>      
+                <br>
                 <table class="table">
                   <thead>
                     <tr>
@@ -117,7 +117,7 @@
                       <td>Pichai</td>
                       <td>CEO of Google</td>
                       <td>28th July 2019</td>
-                      <td>12:00AM</td>
+                      <td>10:00AM</td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
