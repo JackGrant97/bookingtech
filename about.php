@@ -16,8 +16,8 @@
             <div class="carousel-item active">
               <img class="d-block w-100" src="assets/images/billgates.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test</h5>
-                <p>Test</p>
+                <h5>Bill Gates</h5>
+                <p>Founder, technology advisor, and board memeber at Microsoft</p>
               </div>
             </div>
             <div class="carousel-item">
