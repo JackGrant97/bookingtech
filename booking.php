@@ -69,8 +69,10 @@
         header("Location: ../booking.php?booking=success");
         echo
         '
-        <div class="alert alert-success" role="alert">
-          Congratulations! Your table has been booked!
+        <div class="booked">
+          <div class="alert alert-success" role="alert">
+            Congratulations! Your table has been booked!
+          </div>
         </div>
         ';
         exit();
