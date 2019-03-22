@@ -104,6 +104,7 @@
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 BookingTech's employment conference will take place on the 27th & 28th of July 2019
+                <br> Starting 8:00AM to 5:00PM
               </div>
             </div>
           </div>
